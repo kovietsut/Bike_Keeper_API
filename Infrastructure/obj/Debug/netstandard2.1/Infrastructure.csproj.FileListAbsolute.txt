@@ -1,0 +1,37 @@
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Biker_Keeper_Data.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Biker_Keeper_Data.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb
+D:\Github\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.deps.json
+D:\Github\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.dll
+D:\Github\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Infrastructure.pdb
+D:\Github\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Biker_Keeper_Data.dll
+D:\Github\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+D:\Github\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csprojAssemblyReference.cache
+D:\Github\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfoInputs.cache
+D:\Github\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.AssemblyInfo.cs
+D:\Github\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Github\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.CopyComplete
+D:\Github\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.dll
+D:\Github\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.1\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

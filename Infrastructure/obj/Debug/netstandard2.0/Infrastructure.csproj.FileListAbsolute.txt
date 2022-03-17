@@ -1,0 +1,36 @@
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Biker_Keeper_Data.dll
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Biker_Keeper_Data.pdb
+D:\Projects\GitHub\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Biker_Keeper_Data.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Biker_Keeper_Data.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.deps.json
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Infrastructure.pdb
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Biker_Keeper_Data.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\bin\Debug\netstandard2.0\Biker_Keeper_Data.pdb
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csprojAssemblyReference.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfoInputs.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.AssemblyInfo.cs
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.csproj.CopyComplete
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Infrastructure\obj\Debug\netstandard2.0\Infrastructure.pdb
