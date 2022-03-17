@@ -1,0 +1,9 @@
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\bin\Release\netstandard2.0\Biker_Keeper_Data.deps.json
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\bin\Release\netstandard2.0\Biker_Keeper_Data.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\bin\Release\netstandard2.0\Biker_Keeper_Data.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Release\netstandard2.0\Biker_Keeper_Data.csprojAssemblyReference.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Release\netstandard2.0\Biker_Keeper_Data.AssemblyInfoInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Release\netstandard2.0\Biker_Keeper_Data.AssemblyInfo.cs
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Release\netstandard2.0\Biker_Keeper_Data.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Release\netstandard2.0\Biker_Keeper_Data.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Release\netstandard2.0\Biker_Keeper_Data.pdb

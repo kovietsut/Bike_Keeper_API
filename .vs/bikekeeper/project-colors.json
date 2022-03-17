@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "85c7877f-af14-4898-a0d8-2e9e7433cd5b": {
+      "ProjectGuid": "85c7877f-af14-4898-a0d8-2e9e7433cd5b",
+      "DisplayName": "bikekeeper",
+      "ColorIndex": 0
+    },
+    "f9f64c92-9e57-412b-a894-af2ec6ce241d": {
+      "ProjectGuid": "f9f64c92-9e57-412b-a894-af2ec6ce241d",
+      "DisplayName": "Biker_Keeper_Data",
+      "ColorIndex": 1
+    },
+    "e3ece9da-06ab-43fc-b404-2de17fb2379d": {
+      "ProjectGuid": "e3ece9da-06ab-43fc-b404-2de17fb2379d",
+      "DisplayName": "Infrastructure",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

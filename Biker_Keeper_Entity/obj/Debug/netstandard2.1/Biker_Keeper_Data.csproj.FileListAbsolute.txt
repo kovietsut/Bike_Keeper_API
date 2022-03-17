@@ -1,0 +1,38 @@
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.deps.json
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csprojAssemblyReference.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfoInputs.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfo.cs
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csproj.CoreCompileInputs.cache
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.dll
+E:\FPT\7th Semester\PRM391 Mobile\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.deps.json
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfoInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfo.cs
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.dll
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.deps.json
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.dll
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csprojAssemblyReference.cache
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfoInputs.cache
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfo.cs
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csproj.CoreCompileInputs.cache
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.dll
+D:\Github\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csproj.AssemblyReference.cache
+D:\Projects\GitHub\Biker_Keeper\BikeKeeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasuk\Source\Repos\Bike_Keeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.deps.json
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.dll
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\bin\Debug\netstandard2.1\Biker_Keeper_Data.pdb
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csproj.AssemblyReference.cache
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfoInputs.cache
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.AssemblyInfo.cs
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.csproj.CoreCompileInputs.cache
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.dll
+C:\Users\sasuk\source\repos\Bike_Keeper_API\Biker_Keeper_Entity\obj\Debug\netstandard2.1\Biker_Keeper_Data.pdb
