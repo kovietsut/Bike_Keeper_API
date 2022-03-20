@@ -158,7 +158,7 @@ namespace bikekeeper.Controllers
                     x.ImageVehicle.Contains(model.SearchText.Trim()) ||
                     x.CompanyLocation.Contains(model.SearchText.Trim()) || x.QRCode.Contains(model.SearchText.Trim()) ||
                     x.BrandName.Contains(model.SearchText.Trim()) || x.MacAddress.Contains(model.SearchText.Trim()) ||
-                    x.ParkName.Contains(model.SearchText.Trim()) || x.FullName.Contains(model.SearchText.Trim()) ||
+                    x.ParkName.Contains(model.SearchText.Trim()) ||
                     x.PhoneNumber.Contains(model.SearchText.Trim()));
 
             var result = data
@@ -197,6 +197,15 @@ namespace bikekeeper.Controllers
             return JsonUtil.Error("Cannot get Transaction Type");
         }
 
+        [HttpPost("GetTransactionHistory")]
+        public async Task<JsonResult> History()
+        {
+            var userId = GetCurrentUserId();
+            var transactions = unitOfWork.RepositoryCRUD<Park_Transaction>().GetAll().Where(x => x.UserId == userId);
+            return JsonUtil.Success(transactions);
+        }
+
+
         [HttpPost("Create")]
         public override async Task<JsonResult> Create([FromBody] TransactionModel model)
         {
@@ -211,18 +220,38 @@ namespace bikekeeper.Controllers
                 }
                 var parkingCard = unitOfWork.RepositoryCRUD<Parking_Card>().GetSingle(x => x.QRCode == model.QRCode);
                 var park = unitOfWork.RepositoryCRUD<Park>().GetSingle(x => x.Id == parkingCard.ParkId);
-
-                VehicleType vehicleType = new VehicleType();
-                vehicleType.BrandName = model.VehicleManufacturer;
-                vehicleType.Color = model.VehicleColor;
-                unitOfWork.RepositoryCRUD<VehicleType>().Insert(vehicleType);
-                unitOfWork.Commit();
-
+                var vehicleType = unitOfWork.RepositoryCRUD<VehicleType>().GetSingle(x => x.QRCodeId == parkingCard.Id);
+                if (vehicleType == null)
+                {
+                    vehicleType = new VehicleType();
+                    vehicleType.BrandName = model.VehicleManufacturer;
+                    vehicleType.LicensePlate = model.LicensePlate;
+                    vehicleType.QRCodeId = parkingCard.Id;
+                    vehicleType.ImageVehicle = model.ImageVehicle;
+                    vehicleType.IsCheckIn = true;
+                    unitOfWork.RepositoryCRUD<VehicleType>().Insert(vehicleType);
+                    unitOfWork.Commit();
+                }
+                else
+                {
+                    if (vehicleType.LicensePlate != model.LicensePlate)
+                    {
+                        return JsonUtil.Error("LicensePlate not match QrCode");
+                    }
+                    vehicleType.IsCheckIn = !vehicleType.IsCheckIn;
+                    unitOfWork.RepositoryCRUD<VehicleType>().Update(vehicleType);
+                }
+                model.TransactionType = "CheckOut";
+                if (vehicleType.IsCheckIn)
+                {
+                    model.TransactionType = "CheckIn";
+                }
                 model.ParkingCardId = parkingCard.Id;
                 model.VehicleTypeId = vehicleType.Id;
+                model.DeviceId = 1;
                 model.CheckTime = DateTime.Now;
                 model.UserId = GetCurrentUserId();
-
+                
                 var transactions = unitOfWork.RepositoryCRUD<Park_Transaction>().GetAll().Where(x => x.ParkingCardId == parkingCard.Id).Count();
                 //var totalCheckIn = transactions.Where(x=> x.TransactionType == "CheckIn").Count();
                 //var totalCheckOut = transactions.Where(x => x.TransactionType == "CheckOut").Count();
@@ -235,7 +264,7 @@ namespace bikekeeper.Controllers
 
                 return JsonUtil.Success(new CheckIn
                 {
-                    Message = "Check In Success",
+                    Message = model.TransactionType+" Success",
                     CheckTime = model.CheckTime,
                 });
 
@@ -257,7 +286,7 @@ namespace bikekeeper.Controllers
                 //    return JsonUtil.Error("Position at QRCode is active");
                 //}
             }
-            if (model.TransactionType == "CheckOut")
+            /*if (model.TransactionType == "CheckOut")
             {
                 //var park = unitOfWork.RepositoryCRUD<Park>().GetSingle(x => x.Name == "FPT HCM");
                 var isExist = unitOfWork.RepositoryCRUD<Parking_Card>().Any(x => x.QRCode == model.QRCode);
@@ -277,19 +306,22 @@ namespace bikekeeper.Controllers
 
                 var transactions = unitOfWork.RepositoryCRUD<Park_Transaction>().GetAll().Where(x => x.ParkingCardId == parkingCard.Id);
                 var checkIn = transactions.Where(x => x.TransactionType == "CheckIn");
+
+                var totalCheckIn = checkIn.Count();
+                var totalCheckOut = transactions.Where(x => x.TransactionType == "CheckOut").Count();
+                if (totalCheckOut < totalCheckIn)
+                {
+                    result = await iGeneralService.Create(model);
+                }
+                else
+                {
+                    return JsonUtil.Error("Vehicle is checked out");
+                }
+
+
                 var isValid = checkIn.OrderBy(x => x.CheckTime).Last().LicensePlate == model.LicensePlate;
                 if (isValid)
                 {
-                    var totalCheckIn = checkIn.Count();
-                    var totalCheckOut = transactions.Where(x => x.TransactionType == "CheckOut").Count();
-                    if (totalCheckOut < totalCheckIn)
-                    {
-                        result = await iGeneralService.Create(model);
-                    }
-                    else
-                    {
-                        return JsonUtil.Error("Vehicle is checked out");
-                    }
                     return JsonUtil.Success(new CheckOut
                     {
                         Message = "Check out Success",
@@ -313,7 +345,7 @@ namespace bikekeeper.Controllers
                 //        Price = 3000
                 //    });
                 //}
-            }
+            }*/
             return JsonUtil.Error("Cannot Create Transaction");
         }
     }

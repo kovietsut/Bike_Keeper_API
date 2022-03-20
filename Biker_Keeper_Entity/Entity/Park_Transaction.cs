@@ -15,9 +15,7 @@ namespace Biker_Keeper_Data.Entity
         public int? ParkingCardId { get; set; }
         public int? VehicleTypeId { get; set; }
         public int? DeviceId { get; set; }
-        public string ImageVehicle { get; set; }
-        public string LicensePlate { get; set; }
-        public string Url { get; set; }
         public string TransactionType { get; set; }
+        public string LicensePlate { get; set; }
     }
 }
