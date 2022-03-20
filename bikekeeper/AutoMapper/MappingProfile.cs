@@ -22,6 +22,7 @@ namespace bikekeeper.AutoMapper
             CreateMap<ParkKindVehicle, ParkKindVehicleModel>().ReverseMap();
             CreateMap<VehicleType, VehicleTypeModel>().ReverseMap();
             CreateMap<Park_Transaction, TransactionModel>().ReverseMap();
+            CreateMap<Parking_Card, ParkingCardModel>().ReverseMap();
             // ModelToDomainMappingProfile
             CreateMap<UserModel, Users>()
                 .AfterMap((src, dest) =>

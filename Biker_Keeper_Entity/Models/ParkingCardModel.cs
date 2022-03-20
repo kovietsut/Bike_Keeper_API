@@ -9,6 +9,8 @@ namespace Biker_Keeper_Data.Models
         public int Id { get; set; }
         public bool? IsEnabled { get; set; }        
         public string QRCode { get; set; }
+        public int? CompanyId { get; set; }
         public int? ParkId { get; set; }
+        public int? ParkKindVehicleId { get; set; }
     }
 }

@@ -14,6 +14,7 @@ namespace Biker_Keeper_Data.Entity
         public string Status { get; set; }        
         public DateTime? AvailableTime { get; set; }
         public DateTime? OpenCloseTime { get; set; }
+        public int? ParkKindVehicleId { get; set; }
         public string Name { get; set; }
     }
 }

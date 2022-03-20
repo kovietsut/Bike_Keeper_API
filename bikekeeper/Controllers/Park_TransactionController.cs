@@ -223,11 +223,11 @@ namespace bikekeeper.Controllers
                 model.CheckTime = DateTime.Now;
                 model.UserId = GetCurrentUserId();
 
-                var transactions = unitOfWork.RepositoryCRUD<Park_Transaction>().GetAll().Where(x => x.ParkingCardId == parkingCard.Id);
-                var totalCheckIn = transactions.Where(x=> x.TransactionType == "CheckIn").Count();
-                var totalCheckOut = transactions.Where(x => x.TransactionType == "CheckOut").Count();
+                var transactions = unitOfWork.RepositoryCRUD<Park_Transaction>().GetAll().Where(x => x.ParkingCardId == parkingCard.Id).Count();
+                //var totalCheckIn = transactions.Where(x=> x.TransactionType == "CheckIn").Count();
+                //var totalCheckOut = transactions.Where(x => x.TransactionType == "CheckOut").Count();
 
-                if (totalCheckIn > totalCheckOut)
+                if (transactions % 2 != 0)
                 {
                     return JsonUtil.Error("Card is used");
                 }
@@ -273,24 +273,23 @@ namespace bikekeeper.Controllers
                 model.CheckTime = DateTime.Now;
                 model.UserId = GetCurrentUserId();
                 //var parkTransaction = unitOfWork.RepositoryCRUD<Park_Transaction>().GetSingle(x => x.)
+
+
                 var transactions = unitOfWork.RepositoryCRUD<Park_Transaction>().GetAll().Where(x => x.ParkingCardId == parkingCard.Id);
                 var checkIn = transactions.Where(x => x.TransactionType == "CheckIn");
-
-                var totalCheckIn = checkIn.Count();
-                var totalCheckOut = transactions.Where(x => x.TransactionType == "CheckOut").Count();
-                if (totalCheckOut < totalCheckIn)
-                {
-                    result = await iGeneralService.Create(model);
-                }
-                else
-                {
-                    return JsonUtil.Error("Vehicle is checked out");
-                }
-
-
                 var isValid = checkIn.OrderBy(x => x.CheckTime).Last().LicensePlate == model.LicensePlate;
                 if (isValid)
                 {
+                    var totalCheckIn = checkIn.Count();
+                    var totalCheckOut = transactions.Where(x => x.TransactionType == "CheckOut").Count();
+                    if (totalCheckOut < totalCheckIn)
+                    {
+                        result = await iGeneralService.Create(model);
+                    }
+                    else
+                    {
+                        return JsonUtil.Error("Vehicle is checked out");
+                    }
                     return JsonUtil.Success(new CheckOut
                     {
                         Message = "Check out Success",

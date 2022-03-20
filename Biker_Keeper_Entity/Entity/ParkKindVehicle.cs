@@ -11,7 +11,5 @@ namespace Biker_Keeper_Data.Entity
         public bool? IsEnabled { get; set; }
         public string Code { get; set; }
         public string LocationKindVehicle { get; set; }
-        public string Status { get; set; }
-        public int? ParkId { get; set; }
     }
 }
